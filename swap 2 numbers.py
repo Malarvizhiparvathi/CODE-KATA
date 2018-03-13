@@ -1,6 +1,6 @@
-a = 10
-b = 20
-temp = a
-a = b
-b = temp
-print("a=", a, " b=", b)
+x = 70
+y = 60
+temp = x
+x = y
+y = temp
+print("x=", x, " y=", y)
