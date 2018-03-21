@@ -1,7 +1,7 @@
-a=[]
+x=[]
 n=int(input("Enter number of elements:"))
 for i in range(1,n+1):
     b=int(input(" "))
-    a.append(b)
-a.sort()
-print("Largest element is:",a[n-1])
+    x.append(b)
+x.sort()
+print("Largest element is:",x[n-1])
