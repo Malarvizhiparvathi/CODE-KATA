@@ -4,3 +4,5 @@ def isinteger(a):
         return True
     except ValueError:
         return False
+a=raw_input("")
+print(isinteger(a))
