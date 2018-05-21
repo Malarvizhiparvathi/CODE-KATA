@@ -1,4 +1,5 @@
 import statistics
 a=str(input(""))
-b=map(str,a.split(" "))
+num=str(input(""))
+b=map(str,num.split(" "))
 print(statistics.median(b))
